@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(22, 125, 227);
+
+}
+
+
+.weather_forecast_icon {
+    width: 100px;
+    margin: auto;
+}
+
+.weather_forecast_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+    margin: 3px;
+    background-color: rgb(53, 93, 166);
+}
+
+.weather_forecast {
+    display: flex;
+    flex-direction: row;
+}

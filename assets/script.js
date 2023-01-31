@@ -1,3 +1,15 @@
+setInterval(
+    function(){
+        $("#currentDay").text(moment().format("DDD MMM, YYYY hh:mm:ss"))
+    
+    },1000)
+
+    setInterval(
+        function () {
+            $("#currentDay").text(moment().format("DDD MMM, YYYY hh:mm:ss"))
+    
+        }, 1000)
+
 let searchInp = document.querySelector('.weather_search');
 let city = document.querySelector('.weather_city');
 let day = document.querySelector('.weather_day');
@@ -47,7 +59,7 @@ function getWeather() {
                     console.log(weekData);
 
                     // <article class="weather_forecast_item">
-                    //   <img src="images/clear-sky.jpg" alt="Clear sky" class="weather_forecast_icon">
+                    //   <img src="imageshttp://openweathermap.org/img/wn/" alt="http://openweathermap.org/img/wn/" class="weather_forecast_icon">
                     //   <h3>Day 1</h3>
                     //   <p>Temp: </p>
                     //   <p>Humidity: </p>
@@ -68,7 +80,13 @@ function getWeather() {
                         let tempP = document.createElement("p");
                         tempP.textContent = "Temp: " + weekData[i].main.temp
 
-                        newArticle.append(newImg, newH3, tempP)
+                        let humidityP = document.createElement("P")
+                        humidityP.textContent = "Humidity: " + weekData[i].main.humidity
+
+                        let windspeedP = document.createElement("p");
+                        windspeedP.textContent = "Wind Speed: " + weekData[i].wind.speed
+
+                        newArticle.append(newImg, newH3, tempP, humidityP, windspeedP)
 
                         weatherForecastDiv.append(newArticle)
                     }

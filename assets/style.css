@@ -1,5 +1,6 @@
+
 body {
-    background-color: rgb(22, 125, 227);
+    background-color: rgb(52, 108, 228);
 
 }
 
@@ -17,7 +18,7 @@ body {
     flex: 1;
     padding: 10px;
     margin: 3px;
-    background-color: rgb(53, 93, 166);
+    background-color: rgb(6, 147, 198);
 }
 
 .weather_forecast {

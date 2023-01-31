@@ -32,7 +32,7 @@ function getWeather() {
 
     let weatherBaseEndpoint = 'http://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=1&appid=0e1d4f15c175dd06881d40b79606df7b'
 
-
+    
     fetch(weatherBaseEndpoint)
         .then(response => response.json())
         .then(data => {

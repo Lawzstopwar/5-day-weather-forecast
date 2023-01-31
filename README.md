@@ -1,6 +1,3 @@
-# Challenge08
-5 day weather forecast
-
 
 # Module 8 Server-Side APIs: Weather Dashboard
 
@@ -20,3 +17,9 @@ I will be using `localStorage` to store any persistent data.
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
+
+The following image shows the web application's appearance and functionality:
+
+[deployed link](https://lawzstopwar.github.io/5-day-weather-forecast/)
+![5 Day Weather image](./assets/5-day-forecast.png)
+![Forecast Demo](./assets/5-day-weather.gif)

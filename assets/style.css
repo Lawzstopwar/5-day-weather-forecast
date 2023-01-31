@@ -25,3 +25,12 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+.weather-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+

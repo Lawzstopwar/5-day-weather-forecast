@@ -59,7 +59,7 @@ function getWeather() {
                     console.log(weekData);
 
                     // <article class="weather_forecast_item">
-                    //   <img src="imageshttp://openweathermap.org/img/wn/" alt="http://openweathermap.org/img/wn/" class="weather_forecast_icon">
+                    //   <img src="imageshttps://openweathermap.org/img/wn/" alt="https://openweathermap.org/img/wn/" class="weather_forecast_icon">
                     //   <h3>Day 1</h3>
                     //   <p>Temp: </p>
                     //   <p>Humidity: </p>
@@ -71,7 +71,7 @@ function getWeather() {
                         newArticle.classList.add("weather_forecast_item");
 
                         let newImg = document.createElement("img");
-                        newImg.src = "http://openweathermap.org/img/wn/" + weekData[i].weather[0].icon +"@2x.png";
+                        newImg.src = "https://openweathermap.org/img/wn/" + weekData[i].weather[0].icon +"@2x.png";
                         newImg.classList.add("weather_forecast_icon");
 
                         let newH3 = document.createElement("h3");
